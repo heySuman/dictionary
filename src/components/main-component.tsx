@@ -9,6 +9,7 @@ const MainComponent = () => {
   return (
     <main>
       <SearchBar setSearchData={setSearchData} />
+
       {searchData.length > 0 && <Card {...searchData[0]} />}
     </main>
   );

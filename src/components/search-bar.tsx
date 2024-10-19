@@ -19,7 +19,6 @@ const SearchBar = ({
       })
       .then((data) => setSearchData(data))
       .catch((error) => alert(error));
-    setWord("");
   }
 
   function handleInputChange(e: React.ChangeEvent<HTMLInputElement>) {
